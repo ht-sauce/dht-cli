@@ -8,9 +8,9 @@ bracketSpacing： 控制json对象括号前后是否加上空格 */
 
 // 作为配置参考
 module.exports = {
-  printWidth: 120,
+  printWidth: 100,
   semi: false,
   tabWidth: 2,
   singleQuote: true,
-  trailingComma: 'all'
+  trailingComma: 'all',
 }

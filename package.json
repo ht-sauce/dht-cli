@@ -1,10 +1,9 @@
 {
   "name": "dht-cli",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "戴海天的个人脚手架集合",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node scripts/index.js"
   },
   "repository": {
     "type": "git",
@@ -17,8 +16,8 @@
   },
   "homepage": "https://github.com/ht-sauce/dht-cli#readme",
   "dependencies": {
-    "commander": "^6.1.0",
     "git-clone": "^0.1.0",
+    "inquirer": "^7.3.3",
     "shelljs": "^0.8.4"
   },
   "devDependencies": {
