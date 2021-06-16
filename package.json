@@ -1,36 +1,27 @@
 {
-  "name": "dht-cli",
+  "name": "zl-cli",
   "version": "1.0.0",
-  "description": "戴海天的个人脚手架集合",
-  "scripts": {
-    "test": "node scripts/index.js"
-  },
+  "description": "中旅脚手架",
+  "bin": "bin/cli.js",
+  "scripts": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ht-sauce/dht-cli.git"
+    "url": ""
   },
-  "author": "",
+  "keywords": [
+    "zl-cli"
+  ],
+  "author": "haitian.dai",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ht-sauce/dht-cli/issues"
-  },
-  "homepage": "https://github.com/ht-sauce/dht-cli#readme",
   "dependencies": {
-    "git-clone": "^0.1.0",
-    "inquirer": "^7.3.3",
-    "shelljs": "^0.8.4"
-  },
-  "devDependencies": {
-    "eslint": "^7.9.0",
-    "eslint-config-standard": "^14.1.1",
-    "eslint-plugin-import": "^2.22.0",
-    "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-prettier": "^3.1.4",
-    "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-react": "^7.21.2",
-    "eslint-plugin-standard": "^4.0.1",
-    "prettier": "^2.1.2",
-    "prettier-eslint": "^11.0.0",
-    "prettier-eslint-cli": "^5.0.0"
+    "axios": "^0.21.1",
+    "chalk": "^4.1.1",
+    "commander": "^7.2.0",
+    "cross-spawn": "^7.0.3",
+    "download-git-repo": "^3.0.2",
+    "figlet": "^1.5.0",
+    "fs-extra": "^10.0.0",
+    "inquirer": "^8.1.0",
+    "ora": "^5.4.1"
   }
 }
